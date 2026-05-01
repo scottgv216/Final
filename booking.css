@@ -75,8 +75,7 @@ p{
   align-items: center;
   line-height: 2;
   color: white;
-  font-size: 1.75rem;
-  
+  font-size: 200%;
 }
 
 .bookhere {
@@ -92,7 +91,7 @@ p{
 
 .bookhere-content{
   color: rgb(255, 14, 155);
-  font-size: 1.75rem;
+  font-size: 200%;
   line-height: 2;
 }
 
