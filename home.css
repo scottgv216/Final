@@ -134,6 +134,7 @@ p{
   border-radius: 1rem;
   margin-top: 1rem;
   margin-left: 1rem;
+  font-size: 125%;
 }
 
 .card a:hover {
@@ -201,4 +202,25 @@ footer a:hover{
   background-color: rgb(255, 14, 155);
   color: rgb(79, 77, 77);
   border-radius: 10px;
+}
+
+
+/* TABLET Media Query
+------------------------------------*/
+@media (max-width: 799px) {
+.card-grid{
+  grid-template-columns: 2fr 2fr;
+}
+
+
+}
+
+/* PHONE Media Query
+------------------------------------*/
+@media (max-width: 499px) {
+  .card-grid{
+    grid-template-columns: 1fr;
+  }
+
+
 }

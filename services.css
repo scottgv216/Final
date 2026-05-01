@@ -62,7 +62,6 @@ main {
   font-family: "Cormorant Garamond", serif;
 }
 
-
 .services {
   display: grid;
   gap: 10px;
@@ -104,12 +103,14 @@ main {
 h2 {
   color: rgb(255, 14, 155);
   font-family: "Hina Mincho", serif;
+  font-size: 200%;
 }
 
 
 h3 {
   color: rgb(151, 147, 147);
   font-family: "Cormorant Garamond", serif;
+  font-size: 150%;
 }
 
 .content {
@@ -118,13 +119,17 @@ h3 {
   line-height: 2;
 }
 
-table {
+.table2 {
   color: white;
+  font-size: 150%;
+  font-family: "Cormorant Garamond", serif;
 }
 
 p {
   color: white;
   font-family: "Cormorant Garamond", serif;
+  font-size: 125%;
+
 }
 
 .nav-left {
@@ -135,6 +140,7 @@ p {
   margin-top: 2rem;
   border-radius: .5rem;
   font-family: "Cormorant Garamond", serif;
+  font-size: 150%;
 }
 
 .nav-left a {
